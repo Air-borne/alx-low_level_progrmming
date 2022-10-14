@@ -1,16 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*
+/**
  * main - Entry point
- *
- * Return: 1  (Success)
+ * Return: Always 1 (Success)
  */
 
 int main(void)
 {
 	write(STDOUT_FILENO, "and that piece of art is useful
-			\" - Dora Korpar, 2015-10-19\n"77);
+			\n" - Dora Korpar, 2015-10-19\n", 79);
 	return (1);
 }
-
