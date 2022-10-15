@@ -1,5 +1,14 @@
 #include <stdio.h>
 
+/**
+ * main - main function
+ * 
+ * A program that prints all possible combinations of two two-digit numbers.
+ * 
+ * Return (0)
+ */ 
+
+
 int main(void)
 {
 	int num1, num2;

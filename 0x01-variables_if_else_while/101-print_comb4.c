@@ -1,5 +1,13 @@
 #include <stdio.h>
 
+/**
+ * main - main function
+ * 
+ * a program that prints all possible different combinations of three digits.
+ * 
+ * Return (0)
+ */ 
+
 int main(void)
 {
 	int digit1, digit2, digit3;

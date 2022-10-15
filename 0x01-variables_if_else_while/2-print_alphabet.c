@@ -15,15 +15,15 @@ int main(void)
 	
 	alphabet='a';
 
-    while(alphabet <= 'z')
+        while(alphabet <= 'z')
 	{
-		//printing the alphabets
-		putchar(alphabet);
+	//printing the alphabets
+	putchar(alphabet);
 
-		//increasing the value by 1
-		alphabet++;
+	//increasing the value by 1
+	alphabet++;
 	}
-    putchar('\n');
+        putchar('\n');
 
 	return 0;
 }
