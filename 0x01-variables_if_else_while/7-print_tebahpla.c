@@ -13,7 +13,7 @@ int main(void)
 
 	aphla = 'z';
 
-	while (aphla > 'a')
+	while (aphla >= 'a')
 	{
 		putchar(aphla);
 		aphla--;
