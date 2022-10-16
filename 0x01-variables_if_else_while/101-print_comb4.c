@@ -1,12 +1,13 @@
 #include <stdio.h>
 
 /**
- * main - main function
- * 
- * a program that prints all possible different combinations of three digits.
- * 
- * Return (0)
- */ 
+* main - main function
+*
+* a program that prints all possible different combinations of three digits.
+*
+* Return: zero
+*/
+
 
 int main(void)
 {
@@ -24,14 +25,14 @@ int main(void)
 
 				if (digit1 == 7 && digit2 == 8 && digit3 == 9)
 					continue;
-				
-				putchar(',');
-				putchar(' ');
+
+					putchar(',');
+					putchar(' ');
 			}
 		}
 	}
 
-	putchar('\n');
+putchar('\n');
 
-	return (0);
+return (0);
 }

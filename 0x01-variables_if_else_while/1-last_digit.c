@@ -3,31 +3,27 @@
 #include <stdio.h>
 #include <math.h>
 
-
- /**
- * function_name - Short description, single line
- * @parameterx: Description of parameter x
-(* a blank line
- * Description: Longer description of the function)?
-(* section header: Section description)*
- * Return: Description of the returned value
- */
+/**
+* main - main function
+* This program will assign a random number to the variable n each time
+* it is executed. It prints a statement containing the randon number
+* and a comparison.
+*
+* Return: void
+*/
 
 int main(void)
 {
-    	int n;
-        int l;
+	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-        l = n % 10;
-        
 
-        if (l > 5)
-        printf("Last digit of %i is %i  and is greater than 5\n",n, l );
-        else if (l == 0)
-        printf("Last digit of %i is %i and is 0\n",n, l );
-        else 
-        printf("Last digit of %i is %i and is less than 6 and not 0\n",n, l);        
+	if ((n % 10) > 5)
+		printf("Last digit of %i is %i  and is greater than 5\n", n, n % 10);
+	else if ((n % 10) < 6 && (n % 10) != 0)
+		printf("Last digit of %i is %i and is less than 6 and not 0\n", n, n % 10);
+	else
+		printf("Last digit of %i is %i and is 0\n", n, n % 10);
 	return (0);
 }

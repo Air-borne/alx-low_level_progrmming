@@ -1,25 +1,24 @@
 #include <stdio.h>
 
 /**
- * main - main function
- * A program that prints the lowercase alphabet in reverse, followed by a new line.
- * 
- * Return (0)
- */ 
- 
+* main - main function
+* A program that prints the lowercase alphabet in reverse.
+*
+* Return: zero
+*/
+
 int main(void)
 {
-        char aphla;
+	char aphla;
 
-        aphla = 'z';
+	aphla = 'z';
 
-        while (aphla > 'a')
-        {
-            putchar(aphla);
-            aphla--;
-        }
-        putchar('\n');
+	while (aphla > 'a')
+	{
+		putchar(aphla);
+		aphla--;
+	}
+putchar('\n');
 
-        return 0;   
-  
+return (0);
 }

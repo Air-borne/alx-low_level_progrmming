@@ -1,18 +1,24 @@
 #include <stdio.h>
 
+/**
+* main - main function
+*
+* The program prints lowercase alphabets followed by uppercase alphabets
+*
+* Return: zero
+*/
 
 int main(void)
 {
-    	char alpha;
+char alpha;
 
-    	for (alpha = 'a'; alpha <= 'z'; alpha++)
-        putchar(alpha);
+	for (alpha = 'a'; alpha <= 'z'; alpha++)
+		putchar(alpha);
 
-   	for (alpha = 'A'; alpha <= 'Z'; alpha++)
-        putchar(alpha); 
-    
-        putchar('\n');
+	for (alpha = 'A'; alpha <= 'Z'; alpha++)
+		putchar(alpha);
 
-   	return 0;     
+	putchar('\n');
 
+	return (0);
 }
