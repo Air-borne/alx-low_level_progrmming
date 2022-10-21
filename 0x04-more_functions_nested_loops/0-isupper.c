@@ -3,21 +3,19 @@
 /**
 * _ISUPPER(int) - this function checks for uppercase letter
 * @c: stores the character to be checked
-* Return: check
+* Return: 1 when condition is true and 0 when false
 */
 
 int _isupper(int c)
 {
-	int ans;
 
 	if (c >= 'A' && c <= 'Z')
 	{
-		ans = 1;
+		return (1);
 	}
 	else
 	{
-		ans = 0;
+		return (0);
 	}
 
-	return (ans);
 }
