@@ -1,3 +1,5 @@
+#inclue "main.h"
+
 /**
 * set_string - set value of pointer to string
 * @s: pointer to pointer to change
