@@ -1,7 +1,7 @@
 # 0x1C. C - Makefiles
 <code>c</code>
 
-<iframe src="https://assets.pinterest.com/ext/embed.html?id=816136763743261230" height="215" width="345" frameborder="0" scrolling="no" ></iframe>
+<a src="https://assets.pinterest.com/ext/embed.html?id=816136763743261230" height="215" width="345" frameborder="0" scrolling="no" ></a>
 
 ## Resources
 
